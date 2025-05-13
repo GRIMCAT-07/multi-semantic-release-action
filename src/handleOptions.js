@@ -14,7 +14,7 @@ exports.handleBranchesOption = () => {
   core.debug(`branches input: ${branches}`);
   core.debug(`branch input: ${branch}`);
 
-  const semanticVersion = require('semantic-release/package.json').version;
+  const semanticVersion = require('multi-semantic-release/package.json').version;
   const semanticMajorVersion = Number(semanticVersion.replace(/\..+/g, ''));
   core.debug(`semanticMajorVersion: ${semanticMajorVersion}`);
 

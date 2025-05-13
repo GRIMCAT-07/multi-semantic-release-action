@@ -7,6 +7,20 @@
 
 GitHub Action for [Semantic Release][semantic-url].
 
+## About this fork
+This repository is a fork of [semantic-release-action](https://github.com/cycjimmy/semantic-release-action) to make it practically work with [multi-semantic-release](https://github.com/anolilab/semantic-release/blob/main/packages/multi-semantic-release/README.md).
+
+Goals of this fork:
+
+- Feature parity with upstream
+- Support multi-semantic-release
+
+Nongoals of this fork:
+
+- New features that do not contribute to the goal of this fork
+- Bug fixes that do not contribute to the goal of this fork
+
+
 ## Usage
 ### Step1: Set any [Semantic Release Configuration](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration) in your repository.
 

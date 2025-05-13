@@ -1,5 +1,5 @@
-name: 'Action For Semantic Release'
-description: 'GitHub Action for Semantic Release'
+name: 'Action For Multi Semantic Release'
+description: 'GitHub Action for Multi Semantic Release'
 author: 'cycjimmy'
 branding:
   icon: 'package'

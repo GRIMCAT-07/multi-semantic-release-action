@@ -4,7 +4,7 @@ const exec = require('./_exec');
 const inputs = require('./inputs.json');
 
 /**
- * Install Specifying Version semantic-release
+ * Install Specifying Version multi-semantic-release
  * @returns {Promise<void>}
  */
 module.exports = async () => {
@@ -13,7 +13,7 @@ module.exports = async () => {
     ? `@${semantic_version}`
     : '';
 
-  const {stdout, stderr} = await exec(`npm install semantic-release${versionSuffix} --no-audit --silent`, {
+  const {stdout, stderr} = await exec(`npm install multi-semantic-release${versionSuffix} --no-audit --silent`, {
     cwd: path.resolve(__dirname, '..')
   });
   core.debug(stdout);

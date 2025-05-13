@@ -32,7 +32,7 @@ const release = async () => {
     delete process.env.GITHUB_ACTIONS;
   }
 
-  const semanticRelease = await import('semantic-release');
+  const semanticRelease = await import('multi-semantic-release');
   const result = await semanticRelease.default({
     ...handleBranchesOption(),
     ...handleDryRunOption(),
