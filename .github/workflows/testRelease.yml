@@ -7,9 +7,6 @@ on:
       - main
   push:
 
-  schedule:
-    - cron: 0 2 * * 0
-
 jobs:
   test-semantic-latest:
     name: test-semantic-latest

@@ -1,5 +1,5 @@
 {
-  "name": "@cycjimmy/semantic-release-action",
+  "name": "@revanced/semantic-release-action",
   "version": "4.2.0",
   "description": "GitHub Action for Semantic Release",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cycjimmy/semantic-release-action.git"
+    "url": "git+https://github.com/revanced/semantic-release-action.git"
   },
   "keywords": [
     "semantic-release",
@@ -25,6 +25,6 @@
     "@cycjimmy/awesome-js-funcs": "^4.0.9",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "semantic-release": "^24.2.3"
+    "@anolilab/multi-semantic-release": "^1.1.10"
   }
 }
